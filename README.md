@@ -15,10 +15,8 @@ Les tests en développement logiciel peuvent être classés en plusieurs catégo
 Souvent représentés sous forme d’une pyramide pour illustrer leur hiérarchie en termes de nombre de tests, de coût et de temps.  
 
 <div style="text-align: center;">
-  <img src=".images/pyramide_tests.png" alt="Pyramide des tests" width="300">
+  <img src=".images/pyramide_tests.png" alt="Pyramide des tests" width="400">
 </div>  
-
-Cette pyramide montre :    
 
 ### a) **Tests unitaires**  
 Les tests unitaires se concentrent sur des composants individuels du code, comme des fonctions ou des classes, en les testant de manière isolée. Leur objectif principal est de vérifier que ces composants fonctionnent comme prévu.  
