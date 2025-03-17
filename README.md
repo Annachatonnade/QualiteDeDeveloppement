@@ -18,10 +18,7 @@ Souvent représentés sous forme d’une pyramide pour illustrer leur hiérarchi
   <img src=".images/pyramide_tests.png" alt="Pyramide des tests" width="300">
 </div>  
 
-Cette pyramide montre clairement :  
-- **En bas :** Les tests unitaires sont les plus nombreux, rapides et faciles à automatiser.  
-- **Au milieu :** Les tests d’intégration, en plus petit nombre, nécessitent plus de temps et de préparation.  
-- **En haut :** Les tests End-to-End, plus rares mais fonctionnant sur l’ensemble du système, sont les plus coûteux.   
+Cette pyramide montre :    
 
 ### a) **Tests unitaires**  
 Les tests unitaires se concentrent sur des composants individuels du code, comme des fonctions ou des classes, en les testant de manière isolée. Leur objectif principal est de vérifier que ces composants fonctionnent comme prévu.  
@@ -40,8 +37,7 @@ Les tests d'interface utilisateur (End-to-End) valident le système dans sa glob
 
 - **Avantages** : Simulation réaliste du comportement utilisateur.  
 - **Limites** : Tests souvent complexes, plus lents à exécuter.  
-
-En résumé, chaque type de test présente des forces et des limites complémentaires. Les tests d’intégration forment un lien crucial entre les tests unitaires, orientés sur des composants isolés, et les tests E2E, centrés sur l'ensemble du produit.  
+ 
 
 ---
 
