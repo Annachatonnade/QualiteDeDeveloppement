@@ -9,9 +9,19 @@ Dans le cadre du développement logiciel, les tests constituent un élément fon
 
 ---
 
-## 1. Théorie Générale sur les Tests  
+### Théorie Générale sur les Tests  
+Les tests en développement logiciel peuvent être classés en plusieurs catégories, chacun répondant à des besoins spécifiques : 
 
-Les tests en développement logiciel peuvent être classés en plusieurs catégories, chacun répondant à des besoins spécifiques :  
+Souvent représentés sous forme d’une pyramide pour illustrer leur hiérarchie en termes de nombre de tests, de coût et de temps.  
+
+<div style="text-align: center;">
+  <img src=".images/pyramide_tests.png" alt="Pyramide des tests" width="300">
+</div>  
+
+Cette pyramide montre clairement :  
+- **En bas :** Les tests unitaires sont les plus nombreux, rapides et faciles à automatiser.  
+- **Au milieu :** Les tests d’intégration, en plus petit nombre, nécessitent plus de temps et de préparation.  
+- **En haut :** Les tests End-to-End, plus rares mais fonctionnant sur l’ensemble du système, sont les plus coûteux.   
 
 ### a) **Tests unitaires**  
 Les tests unitaires se concentrent sur des composants individuels du code, comme des fonctions ou des classes, en les testant de manière isolée. Leur objectif principal est de vérifier que ces composants fonctionnent comme prévu.  
