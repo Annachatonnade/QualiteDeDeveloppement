@@ -37,8 +37,7 @@ Les tests d'interface utilisateur (End-to-End) valident le système dans sa glob
 
 - **Avantages** : Simulation réaliste du comportement utilisateur.  
 - **Limites** : Tests souvent complexes, plus lents à exécuter.  
-
-En résumé, chaque type de test présente des forces et des limites complémentaires. Les tests d’intégration forment un lien crucial entre les tests unitaires, orientés sur des composants isolés, et les tests E2E, centrés sur l'ensemble du produit.  
+ 
 
 ---
 
