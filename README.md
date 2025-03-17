@@ -1,5 +1,9 @@
 # Rapport sur les Tests d'Intégration en Développement Logiciel  
 
+> **Note d'utilisation**: Ce fichier README peut être visualisé avec une mise en forme optimale directement dans votre navigateur Chrome grâce à l'extension **Markdown Reader**. 
+>
+> 📌 [Télécharger l'extension Markdown Reader pour Chrome](https://chromewebstore.google.com/detail/markdown-reader/medapdbncneneejhbgcjceippjlfkmkg)
+
 ## Introduction  
 Dans le cadre du développement logiciel, les tests constituent un élément fondamental garantissant la qualité, la robustesse et la fiabilité des applications. Parmi les différents types de tests, les tests d’intégration occupent une place centrale puisqu’ils assurent la communication fluide entre les différents modules d’une application. Ce rapport vise à fournir une vue d'ensemble des tests d'intégration, en détaillant leur rôle, les approches courantes pour leur mise en œuvre, ainsi que leur mise en pratique dans un environnement de développement C++ avec des outils comme Visual Studio.  
 
