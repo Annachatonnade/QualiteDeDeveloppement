@@ -18,12 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="CiCdComponents.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegrationTests.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BankingSystem.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="TestFramework.h">
+    <ClInclude Include="IntegrationTests.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
