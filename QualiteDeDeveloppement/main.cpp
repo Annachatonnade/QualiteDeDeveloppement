@@ -1,4 +1,3 @@
-// main.cpp - Programme principal avec démo des tests
 #include <iostream>
 #include <locale>
 #include "FileSystem.h"
@@ -6,6 +5,11 @@
 #include "Library.h"
 #include "MockFileSystem.h"
 #include "IntegrationTests.h"
+#ifdef _WIN32
+#include <windows.h>
+
+#endif
+
 
 // Déclaration des fonctions définies dans d'autres fichiers
 void testFileSystem();
@@ -14,6 +18,14 @@ void runIntegrationTests();
 void runScenarioTests();
 
 int main() {
+#ifdef _WIN32
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+#else
+    std::locale::global(std::locale("en_US.UTF-8"));
+    std::cout.imbue(std::locale());
+#endif
+
     // Configuration de l'encodage pour afficher correctement les caractères spéciaux
     std::locale::global(std::locale(""));
     std::cout.imbue(std::locale());
