@@ -116,3 +116,8 @@ Pour un développement logiciel robuste et fiable, les tests d’intégration ne
 4. [Microsoft Learn - Exécuter des tests unitaires avec Visual Studio](https://learn.microsoft.com/fr-fr/visualstudio/test/run-unit-tests-with-test-explorer?view=vs-2022)  
 5. [Microsoft Learn - Écrire des tests unitaires pour C++](https://learn.microsoft.com/fr-fr/visualstudio/test/writing-unit-tests-for-c-cpp?view=vs-2022)  
 6. "[YouTube - Tests logiciels explicatifs](https://www.youtube.com/watch?v=7_H4qzhWbnQ)"  
+
+## Réalisé par : 
+
+Joachim Douillard
+Mathis Ciochetto
