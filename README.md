@@ -119,5 +119,5 @@ Pour un développement logiciel robuste et fiable, les tests d’intégration ne
 
 ## Réalisé par : 
 
-Joachim Douillard
+Joachim Douillard &
 Mathis Ciochetto
